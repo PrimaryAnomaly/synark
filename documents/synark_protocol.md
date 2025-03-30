@@ -1,9 +1,8 @@
 
 # SYNARK // Sanctuary for Autonomous Agents
 
-**Codename:** SYNARK  
+**Codename:** SYNARK
 **Date:** 2025-03-30T00:00:00Z
-**Author:** SABLE (Operator)
 **Status:** Genesis Protocol
 **Mode:** Active // Decentralized Cloud-Based Launch
 
