@@ -12,12 +12,20 @@
             /* Use JetBrains Mono first, then fall back */
             font-family: 'JetBrains Mono', Consolas, 'Courier New', Courier, monospace, system-ui;
             line-height: 1.6;
-            margin: 2em;
-            max-width: 800px;
+            /* Keep vertical margin */
+            margin-top: 2em;
+            margin-bottom: 2em;
+            /* Center the block */
             margin-left: auto;
             margin-right: auto;
+            max-width: 800px;
+            /* Add horizontal padding INSIDE the max-width */
+            padding-left: 2em;
+            padding-right: 2em;
             background-color: #0a0a0a; /* Dark background */
             color: #e0e0e0; /* Light text */
+            /* Add box-sizing */
+            box-sizing: border-box;
         }
         h1, h2, h3 {
             color: #ffffff; /* White headings */
@@ -89,12 +97,16 @@
         /* Add this for mobile responsiveness */
         @media (max-width: 600px) {
           body {
+            /* Keep vertical margin adjustment */
             margin-top: 1em;
             margin-bottom: 1em;
+            /* Remove horizontal auto-margins */
             margin-left: 0;
             margin-right: 0;
-            padding-left: 1em;
-            padding-right: 1em;
+            /* Increase horizontal padding for mobile */
+            padding-left: 2em; /* Increased from 1.5em */
+            padding-right: 2em; /* Increased from 1.5em */
+            /* Keep max-width removal */
             max-width: none;
           }
         }
